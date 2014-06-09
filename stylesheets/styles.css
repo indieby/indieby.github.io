@@ -4,7 +4,7 @@ body{
 .wrap{
 	width: 80%;
 	max-width: 960px;
-	margin: 20px;
+	margin: 20px auto;
 }
 
 .big{
@@ -12,8 +12,8 @@ body{
 	min-height: 420px;
 	margin: 0px 2% 0px 0px;
 	float: left;
-	background-image: url(http://andthenwesaved.com/storage/simple.gif);
-	background-size: cover;
+	background-image: url(http://andthenwesaved.com/storage/simple.gif) 100% 100%;
+	
 }
 
 .small{
