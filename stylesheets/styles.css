@@ -13,6 +13,7 @@ body{
 	margin: 0px 2% 0px 0px;
 	float: left;
 	background-image: url(http://andthenwesaved.com/storage/simple.gif);
+	background-size: cover;
 }
 
 .small{
