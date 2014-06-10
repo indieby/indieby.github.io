@@ -60,7 +60,7 @@ body{
 		}
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
 		
 		.big{
 			min-height: 211px;
