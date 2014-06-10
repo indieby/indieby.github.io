@@ -37,11 +37,12 @@ body{
 	background: url(../images/boxes.png) no-repeat;
 }
 
-@media screen and (max-width: 800px){
+@media only screen and (max-width: 800px){
 	.big{
 		float:none;
 		width: 100%;
 		min-height: 380px;
+		background-size: 100%;
 	}
 
 	.small{
@@ -64,6 +65,7 @@ body{
 		
 		.big{
 			min-height: 211px;
+			background-size: 100%;
 		}
 		
 		.small{
