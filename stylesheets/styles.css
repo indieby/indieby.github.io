@@ -1,15 +1,26 @@
+@font-face
+{
+font-family: Wendy;
+src: url(https://github.com/indieby/indieby.github.io/raw/master/fonts/wendy.ttf);
+}
+
+      
 body{
-	font-family: sans-serif;
+	cursor: default;
+	font-family: Wendy;
+	font-size: 30pt;
+	min-height: 1px;	
 }
 
 div{
 	display: block;
 	width: auto;
 }
-
-img{
-	height: auto;
-	max-width: 100%;
+h1{
+	font-size: 48pt;
+}
+a:hover{
+	cursor: pointer;
 }
 
 .wrap{
@@ -18,56 +29,9 @@ img{
 	margin: 20px auto;
 }
 
-.big{
-	width: 60%;
-	min-height: 10px;
-	height: auto;
-	margin: 0px 2% 0px 0px;
-	float: left;	
+.download-link{
+	position: relative;
+	top: 20%;
+	text-align:center;
+	display: none;
 }
-
-.small{
-	width: 38%;
-	float: left;
-}
-
-.s-block{
-	margin: 0 0 20px 0;	
-}
-
-@media only screen and (max-width: 800px){
-	.big{
-		float:none;
-		width: 100%;
-	}
-
-	.small{
-		float: none;
-		width: 100%;
-		margin: 20px 0 0 0;
-	}
-	
-	.s-block{
-		float:left;
-		width: 49%;
-	}
-	
-	.s-block:first-child{
-			margin: 0 2% 0 0;
-		}
-}
-
-@media only screen and (max-width: 480px) {
-		
-		.small{
-			margin: 40px 0 0 0;
-		}
-
-		.s-block{
-			width: 100%;
-		}
-
-		.s-block:first-child{
-			margin: 0 0 40px 0;
-		}
-    }   
