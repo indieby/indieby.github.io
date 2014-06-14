@@ -6,6 +6,7 @@ src: url(https://github.com/indieby/indieby.github.io/raw/master/fonts/wendy.ttf
 
       
 body{
+	background: url(images/texture.png)
 	cursor: default;
 	font-family: Wendy;
 	font-size: 30pt;
