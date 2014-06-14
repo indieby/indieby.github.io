@@ -10,7 +10,8 @@ body{
 	cursor: default;
 	font-family: Wendy;
 	font-size: 30pt;
-	min-height: 1px;	
+	min-height: 1px;
+	color: white;
 }
 
 div{
