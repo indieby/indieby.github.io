@@ -5,8 +5,7 @@ src: url(https://github.com/indieby/indieby.github.io/raw/master/fonts/wendy.ttf
 }
 
       
-body{
-	background: url(https://github.com/indieby/indieby.github.io/raw/master/images/texture.png);
+body{	
 	cursor: default;
 	font-family: Wendy;
 	font-size: 30pt;
@@ -20,15 +19,23 @@ div{
 }
 h1{
 	font-size: 48pt;
+	margin: 0px;
 }
+
+p{
+	margin: 0px;
+}
+
 a:hover{
 	cursor: pointer;
 }
 
 .wrap{
-	width: 80%;
+	width: 90%;
 	max-width: 960px;
 	margin: 20px auto;
+	background-color: white;
+	padding: 10px;
 }
 
 .download-link{
@@ -36,4 +43,14 @@ a:hover{
 	top: 20%;
 	text-align:center;
 	display: none;
+}
+
+.head{
+	min-height: 300px;
+	background: url(https://github.com/indieby/indieby.github.io/raw/master/images/texture.png);
+}
+
+.content{
+	background-color: rgb(51, 137, 247);
+	padding: 10px;
 }
